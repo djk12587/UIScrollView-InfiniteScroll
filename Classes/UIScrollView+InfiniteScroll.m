@@ -622,7 +622,11 @@ static const void *kPBInfiniteScrollStateKey = &kPBInfiniteScrollStateKey;
 - (void)pb_scrollToTop {
     CGPoint pt = CGPointZero;
     pt.x = self.contentOffset.x;
-    pt.y = self.contentInset.top * -1;
+    if (@available(iOS 11.0, *)) {
+        pt.y = self.adjustedContentInset.top * -1;
+    } else {
+        pt.y = self.contentInset.top * -1;
+    }
     
     [self setContentOffset:pt animated:YES];
 }
