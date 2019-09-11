@@ -18,6 +18,7 @@
 		39FC9E161C5C7CEE00D130E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39FC9E1C1C5C7D3F00D130E5 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+InfiniteScroll.h"; path = "Classes/UIScrollView+InfiniteScroll.h"; sourceTree = SOURCE_ROOT; };
 		39FC9E1D1C5C7D3F00D130E5 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+InfiniteScroll.m"; path = "Classes/UIScrollView+InfiniteScroll.m"; sourceTree = SOURCE_ROOT; };
+		AF31B96D23289A9B0057D4AE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +35,7 @@
 		39FC9E071C5C7CEE00D130E5 = {
 			isa = PBXGroup;
 			children = (
+				AF31B96D23289A9B0057D4AE /* Package.swift */,
 				39FC9E131C5C7CEE00D130E5 /* UIScrollView_InfiniteScroll */,
 				39FC9E121C5C7CEE00D130E5 /* Products */,
 			);
@@ -105,6 +107,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 39FC9E071C5C7CEE00D130E5;
